@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="./logo.png" alt="" style="position: relative;top: 10px;"
+                width="50px">&nbsp;Level</a>
+        <div class="bx bx-menu" id="menu-icon" style="border: 1px solid;padding: 0px;color: #ee5057;"></div>
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#blog entries">BLOG ENTRIES</a>
+            <a href="#contact us" class="contact">CONTACT US</a>
+        </nav>
+    </header>
+    <section class="details1">
+        <div class="container1">
+            <form action="" method="git" class="form">
+                <div class="formpart1">
+                    <div class="location">
+                        <i class="bx bxs-map" type="solid"
+                            style="color: red;font-size: 30px;position:relative;top: 10px;margin-left: 2px;"></i>
+                        <input type="text" class="city" placeholder="Type Your destination"
+                            style="height: 100%;width: 80.5%;margin-left: 2px;border: none;outline: none;" class="hi1">
+                    </div>
+                    <div class="date1">
+                        <i class="fa fa-calendar"
+                            style="color:red; font-size: 30px;position:relative;top: 7.5px;margin-left: 7px;"></i>
+                        <input type="text" placeholder="Check In"
+                            style="height: 100%;width: 79.7%;margin-left: 2.5px;border: none;" class="head">
+                    </div>
+                    <div class="date2">
+                        <i class="fa fa-calendar"
+                            style="color:red; font-size: 30px;position:relative;top: 7.5px;margin-left: 7px;"></i>
+                        <input type="text" placeholder="Check Out"
+                            style="height: 100%;width: 80.7%;margin-left: 2px;border: none;" class="head">
+                    </div>
+                <!-- </div> -->
+                <!-- <div class="formpart2"> -->
+                    <div class="adult">
+                        <i class='bx bxs-user'
+                            style="color:red; font-size: 30px;position:relative;top: 8px;margin-left: 7px;"></i>
+                        <select name="Adult" class="younger" id="Adult" style="height: 100%;width: 80.5%;border: none;color: #838282">
+                            <option value="">Adult</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div class="child">
+                        <i class='bx bxs-user'
+                            style="px;color:red; font-size: 23px;position:relative;top: 6px;margin-left: 5px;"></i>
+                        <select name="Child" class="childrens" id="Child"
+                            style="height: 100%;width: 84.7%;border: none;color: #838282;">
+                            <option value="">Children</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div class="room">
+                        <i class='bx bxs-hotel'
+                            style="color:red; font-size: 30px;position:relative;top: 8px;margin-left: 7px;"></i>
+                        <select name="Child" class="childrens" id="Child"
+                            style="height: 100%;width: 80.5%;border: none;color: #838282;">
+                            <option value="">Room</option>
+                            <!-- <option value="0">0</option> -->
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div class="click">
+                        <button class="check"
+                            style="border: none;height: 3.3rem;width: 100%;font-size: 0.8rem; background-color: #f20f29;">
+                            <a href="" style="color: white;">Check Availability</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="matter1">
+                    <P style="font-size: 0.8rem;color: #838282;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                    <p style="font-size: 0.8rem;color: #f20f29;">Need Help ?</p>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    <section class="information">
+        <!-- <div class="container2"> -->
+        <h2 style="font-size: 3rem;">We are here to help you ?</h2>
+
+        <div class="matter2">
+            <p>Subscribe to get our newletters</p>
+        </div>
+        <div class="button">
+            <!-- <a href="#"> -->
+                <p style="padding: 10px 10px;color: aliceblue;" class="sai">SUBSCRIBE NEWLETTERS</p>
+            </a>
+        </div>
+        <!-- </div> -->
+         
+    </section> 
+        <div class=" clippath">
+        </div>
+    <section class="details2">
+        
+        <div class="container3">
+            <div class="item">
+                <i class="fa fa-legal" style="font-size:6rem;color:red"></i>
+                <h3 class="title1">Level HTML Template by Tooplate website</h3>
+                <p class="read1">You are allowed to download, edit and use this template for your business or the for
+                    client
+                    websites.Lorem ipsum </p>
+                <p class="read"><a href="" style="color: #ee5057;">CONTINUE READING......</a></p>
+            </div>
+            <div class="item">
+                <i class='bx bxs-plane-alt' style='color:#e20d0d;font-size: 6rem;'></i>
+                <h3 class="title1">The Original Websiteof Template Producer</h3>
+                <p class="read1">You are NOT allowed to re-distribute the downloadable template ZIP file on any the
+                    website.Lorem
+                    ipsum dolor.</p>
+                <p class="read"><a href="" style="color: #ee5057;">CONTINUE READING......</a></p>
+            </div>
+            <div class="item">
+                <i class="fa fa-life-saver" style="font-size:6rem;color:red"></i>
+                <h3 class="title1">Contact us if you have any question</h3>
+                <p class="read1">If you see this template being distributed on any other site, that is an illegal
+                    copy.Lorem ipsum
+                    dolo</p>
+                <p class="read"><a href="" style="color: #ee5057;">CONTINUE READING......</a></p>
+            </div>
+        </div>
+    </section>
+    <section class="details3" id="portfolio">
+        <div class="container4">
+            <div class="twoparts">
+                <div class="part1">
+                    <div class="images">
+                        <img src="./img-01.jpg" alt="img not found" width="100%"    >
+                        <div class="content">
+                            <h3 class="title2">
+                                NUNC IN FELIS ALIQUET METUS LUCTUS IACULIS LOREM
+                            </h3>
+                            <p class="read2">
+                                Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla. Nullam sollicitudin at
+                                augue venenatis eleifend. Nulla ligula ligula, egestas sit amet viverra id, iaculis sit
+                                amet ligula.
+                            </p>
+                            <div class="box">GET MORE INFO.</div>
+                        </div>
+                    </div>
+                    <div class="images">
+                        <img src="./img-02.jpg" alt="img not found" width="100%">
+
+                        <div class="content">
+                            <h3 class="title2">
+                                SED CURSUS DICTUM NUNC QUIS MOLESTIE LOREM
+                            </h3>
+                            <p class="read2">Pellentesque quis dui sit amet purus scelerisque eleifend sed ut eros.
+                                Morbi viverra blandit massa in varius. Sed nec ex eu ex tincidunt iaculis. Curabitur
+                                eget turpis gravida.jhdjdj  
+                            </p>
+                            <div class="box">VIEW DETAILS</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="part2">
+                    <div class="subpart">
+                        <div class="Places">
+                            <h3 class="title3">Recommended Places </h3>
+                            <p class="read3">Enamel pin cliche tilde, kitsch and VHS thundercats</p>
+                        </div>
+                        <div class="countries">
+                            <div class="country">
+                                <img src="./tn-img-01.jpg" alt="">
+                                <div class="country1">EUROPE</div>
+                            </div>
+                            <div class="country">
+                                <img src="./tn-img-02.jpg" alt="">
+                                <div class="country1">ASIA</div>
+                            </div>
+                            <div class="country">
+                                <img src="./tn-img-03.jpg" alt="">
+                                <div class="country1">AFRICA</div>
+                            </div>
+                            <div class="country">
+                                <img src="./tn-img-04.jpg" alt="">
+                                <div class="country1">SOUTH AMERICA</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="details4">
+        <!-- <div class="container"> -->
+            <img src="./videoimg.png" alt="" width="100%">
+        <!-- </div> -->
+    </section>
+
+
+    <section class="details5" id="blog entries">
+        <div class="container5">
+            <div class="total">
+                <div class="leftside">
+                    <h1>ASIA</h1>
+                    <h3 class="title4">Singapore</h3>
+                </div>
+                
+                <div class="rightside">
+                    <div class="rightsidemainblock">
+                        <div class="rightpart" style="margin-bottom: 20px;">
+                          <div>
+                            <img src="./img-03.jpg" alt="">
+                           </div>
+                            <div class="theory">
+                                <h3 class="title5" style="color: #ee5057;">Suspendisse vel est libero sem phasellus ac
+                                    laoreet</h3>
+                                <p class="read4">
+                                    Vivamus eget tellus ornare, sollicitudin quam id, dictum nulla. Phasellus finibus
+                                    rhoncus justo, tempus eleifend neque dictum ac. Aenean metus leo, consectetur non.
+                                </p>
+                                <p class="read4" style="margin-top: 35px;">
+                                    Etiam aliquam arcu at mauris consectetur scelerisque. Integer elementum justo in
+                                    orci facilisis ultricies. Pellentesque at velit ante. Duis scelerisque metus vel
+                                    felis porttitor gravida.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="rightpart" style="margin-bottom: 20px;">
+                            <!-- <div class="laptop"> -->
+                            <img src="./img-04.jpg" alt="">
+                            <!-- </div> -->
+                            <div class="theory">
+                                <h3 class="title5">Suspendisse vel est libero sem phasellus ac laoreet</h3>
+                                <p class="read4">
+                                    Duis accumsan sagittis tortor in ultrices. Praesent tortor ante, fringilla ac nibh
+                                    porttitor, fermentum commodo nulla.
+                                </p>
+                                <p class="read5"><a href="" style="color: #ee5057;">CONTINUE READING......</a></p>
+                            </div>
+                        </div>
+                        <div class="rightpart">
+                            <!-- <div class="execise"> -->
+                            <img src="./img-05.jpg" alt="">
+                            <!-- </div> -->
+                            <div class="theory">
+                                <h3 class="title5">
+                                    Faucibus dolor ligula nisl metus auctor aliquet
+                                </h3>
+                                <p class="read4">
+                                    Nunc in felis aliquet metus luctus iaculis vel et nisi. Nulla venenatis nisl orci,
+                                    laoreet ultricies massa tristique id.
+                                </p>
+                                <p class="read5"><a href="" style="color: #ee5057;">CONTINUE READING......</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="details6" id="contact us">
+        <div class="container6">
+            <div class="mapform">
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.265047147295!2d78.3975758752128!3d17.494856683410767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9105a9b7d013%3A0xf2bcc2edff8ea8b0!2sKPHB%20Colony%20Bus%20Stop!5e0!3m2!1sen!2sin!4v1723379439474!5m2!1sen!2sin"
+                        width="400px" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                </div>
+                <div class="forms">
+                    <form action="" method="post">
+                        <div>
+                            <div class="name">
+                                <input type="text" placeholder="Name" required
+                                 style="width: 300px;padding: 10px;font-size: 1rem; margin-bottom: 15px;border: none;background-color: #e8e3e4;" class="formname">
+                            </div>
+                            <div class="email">
+                                <input type="text" id="email" name="email" placeholder="Email" required 
+                                    pattern="[a-z\d_.]+@[a-z]+\.[a-z]{2,3}$"
+                                    title=" allow only small letter,digits,special character like(.,_,@,$)" 
+                                    style="width: 100%;padding: 10px;font-size: 1rem;margin-bottom: 15px;border: none;background-color: #e8e3e4;">
+                            </div>
+                            <div class="Subject">
+                                <input type="text" placeholder="Subject"  required
+                                style="width: 100%;padding: 15px;font-size: 1rem;margin-bottom: 15px;background-color: #e8e3e4;border: none;">
+                            </div>
+                            <div>
+                                <textarea id="w3review" name="w3review" rows="8 " cols="" placeholder="Message" style="width: 100%;padding: 10px;font-size: 1rem;margin-bottom: 20px;border: none;background-color: #e8e3e4;"></textarea>
+                            </div>
+                            <div>
+                                <input type="submit" value="SEND MESSAGE NOW" 
+                                style="width: 100%;padding: 10px;font-size: 1.1rem;background-color: #ee5057;border: none;color: rgb(255, 255, 255);">
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div>
+                <p class="lastline">
+                    Copyrights &#169; 2018 Your Company -Designed by <span style="color: #f20f29;">Tooplate</span>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>
